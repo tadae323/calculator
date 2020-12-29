@@ -1,0 +1,36 @@
+body,
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 42vw;
+    height: 500px;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+    width: 60%;
+    height: 80%;
+}
+
+#operation-window {
+    border: 3px solid black;
+    border-bottom: none;
+}
+
+#bottom {
+    border: 3px solid black;
+    display: grid;
+}
